@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: bisque;
+    margin: 1em;
+    align-items: center;
+}
+.bar{
+    display: flex;
+    position: fixed;
+    right: 1em;
+    align-items:flex-end;
+    
+}
+.imagesearch{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0.5em;
+    margin-top: 0;
+    
+}
+.advancesearch{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0.5em;
+    margin-right: 0;
+    margin-top: 0
+    ;
+}
+.image{
+    display:contents;
+    width: 5em;
+}
+.picsearch {
+    /* height: 5em; */
+    /* width: 5em; */
+    margin-bottom: 0;
+    margin-top: 10rem;
+}
+.textpicsearch{
+    margin: 0;
+    margin-bottom: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    text-wrap: nowrap;
+}
