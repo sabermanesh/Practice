@@ -48,3 +48,20 @@ body{
     font-size: 1em;
     text-wrap: nowrap;
 }
+.searchfild{
+    background-color: #ebebeb;
+    min-height: 2em;
+    min-width: 16em;
+    border: none;
+    margin: 0;
+    border-radius: 16px 0px 0px 16px;
+}
+.searchbutton{
+    background-color: #ebebeb;
+    font-size: 14px;
+    min-height: 2em;
+    min-width: 4em;
+    border: none;
+    margin: 0;
+    border-radius: 0px 16px 16px 0px;
+}
