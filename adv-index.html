@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Amin Sabermanesh CS50 Project 0</title>
+</head>
+<body>
+    <div class="bar">
+        <a class="imagesearch" href="./index.html">Search</a>
+        <a class="advancesearch" href="./img-index.html">image Search</a>
+    </div>
+    <div class="image">
+        <img class="picsearch" src="./cs50-black.PNG" alt="cs50 search logo" width="270">
+        <h2 class="textpicsearch">Amin's CS50 Advance search</h2>
+    </div>
+    <div class="search">
+        <form class="advgsearch" action="https://www.google.com/search">
+            <div class="container">
+                <div class="filds">
+                    <p class="fildtext">all these words:</p>
+                    <input class="advsearchfild" type="text" placeholder="all these words" name="q">
+                   <input class="advsearchfild" type="hidden" name="tbm" value="isch" />
+                </div>
+                <div class="filds">
+                    <p class="fildtext">this exact word or phrase:</p>
+                    <input class="advsearchfild" type="text" placeholder="this exact word or phrase" name="q">
+                    <input class="advsearchfild" type="hidden" name="tbm" value="isch" />
+                </div>
+                <div class="filds">
+                   <p class="fildtext">any of these words:</p>
+                   <input class="advsearchfild" type="text" placeholder="any of these words" name="q">
+                    <input class="advsearchfild" type="hidden" name="tbm" value="isch" />
+                </div>
+                <div class="filds">
+                  <p class="fildtext">none of these words:</p>
+                  <input class="advsearchfild" type="text" placeholder="none of these words" name="q">
+                   <input class="advsearchfild" type="hidden" name="tbm" value="isch" />
+                </div>
+            </div>
+            <input class="advsearchbutton" type="submit" value="Image Search">
+        </form>
+    </div>
+    
+</body>
+</html>
